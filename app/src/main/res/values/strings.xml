@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Car Motion Sickness Aid</string>
+    <string name="title_settings">Settings</string>
+    <string name="action_back">Back</string>
+
+    <!-- Home -->
+    <string name="home_hero_tagline">Moving dots on screen show your eyes how the car is moving, so what you see agrees with what you feel. Read, browse and watch with less nausea.</string>
+    <string name="home_preview_label">Live preview</string>
+    <string name="home_preview_readout">↔ %1$s · ↕ %2$s m/s²</string>
+    <string name="home_no_sensors_title">No motion sensors</string>
+    <string name="home_no_sensors_body">This device has no accelerometer or gyroscope, so the cues can\'t follow the vehicle\'s motion.</string>
+    <string name="status_stopped">Motion cues are off</string>
+    <string name="status_running">Motion cues are on</string>
+    <string name="status_paused">Motion cues are paused</string>
+    <string name="action_start_cues">Start motion cues</string>
+    <string name="action_stop_cues">Stop motion cues</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_grant">Grant</string>
+    <string name="action_allow">Allow</string>
+    <string name="permission_overlay_title">Display over other apps</string>
+    <string name="permission_overlay_body">Needed so the cues can appear on top of the apps you use in the car. The overlay never blocks your touches.</string>
+    <string name="permission_notifications_title">Notifications</string>
+    <string name="permission_notifications_body">Shows a quiet notification while the cues are on, with Pause and Stop buttons.</string>
+    <string name="section_sensors">Sensors</string>
+    <string name="sensor_accelerometer">Accelerometer</string>
+    <string name="sensor_gyroscope">Gyroscope</string>
+    <string name="sensor_linear_acceleration">Linear acceleration</string>
+    <string name="sensor_gravity">Gravity</string>
+    <string name="sensor_available">Available</string>
+    <string name="sensor_missing">Not available</string>
+    <string name="sensor_none">None detected</string>
+    <string name="section_how_it_works">How it works</string>
+    <string name="how_it_works_body">Motion sickness happens when your inner ear feels the car speeding up, braking and turning while your eyes, fixed on a still screen, report no motion. The cues move the way your body is pushed: back when the car speeds up, forward when it brakes, and sideways in turns. Your eyes then see the motion your inner ear feels.\n\nFor best results, sit facing forward, keep the device steady and start the cues before you begin to feel unwell.</string>
+
+    <!-- Notification & tile -->
+    <string name="notification_channel_name">Motion cues</string>
+    <string name="notification_channel_description">Shown while motion cues are displayed over other apps</string>
+    <string name="notification_title_running">Motion cues are on</string>
+    <string name="notification_title_paused">Motion cues are paused</string>
+    <string name="notification_text">Tap to change cue settings</string>
+    <string name="tile_label">Motion cues</string>
+    <string name="tile_state_on">On</string>
+    <string name="tile_state_off">Off</string>
+    <string name="tile_state_paused">Paused</string>
+
+    <!-- Settings: cues -->
+    <string name="section_cues">Motion cues</string>
+    <string name="setting_cue_style">Style</string>
+    <string name="cue_style_edge_dots">Side dots</string>
+    <string name="cue_style_frame_dots">Frame dots</string>
+    <string name="cue_style_dot_grid">Dot grid</string>
+    <string name="cue_style_horizon">Horizon line</string>
+    <string name="setting_cue_color">Color</string>
+    <string name="cue_color_adaptive">Adaptive</string>
+    <string name="cue_color_blue">Blue</string>
+    <string name="cue_color_white">White</string>
+    <string name="cue_color_black">Black</string>
+    <string name="cue_color_grey">Grey</string>
+    <string name="cue_color_red">Red</string>
+    <string name="cue_color_orange">Orange</string>
+    <string name="cue_color_yellow">Yellow</string>
+    <string name="cue_color_green">Green</string>
+    <string name="cue_color_purple">Purple</string>
+    <string name="setting_cue_size">Size</string>
+    <string name="size_small">Small</string>
+    <string name="size_medium">Medium</string>
+    <string name="size_large">Large</string>
+    <string name="size_extra_large">Extra large</string>
+    <string name="setting_cue_density">Number of dots</string>
+    <string name="density_low">Few</string>
+    <string name="density_medium">Some</string>
+    <string name="density_high">Many</string>
+    <string name="setting_cue_opacity">Opacity</string>
+    <string name="setting_hide_when_still">Hide when still</string>
+    <string name="setting_hide_when_still_subtitle">Fade the cues out when the vehicle isn\'t speeding up, braking or turning</string>
+
+    <!-- Settings: motion -->
+    <string name="section_motion">Motion</string>
+    <string name="setting_sensitivity">Sensitivity</string>
+    <string name="setting_smoothing">Smoothing</string>
+    <string name="setting_sensor_mode">Sensors</string>
+    <string name="sensor_mode_auto">Automatic (accelerometer + gyroscope)</string>
+    <string name="sensor_mode_accelerometer">Accelerometer only</string>
+    <string name="sensor_mode_gyroscope">Gyroscope only</string>
+    <string name="setting_sensors_detected">Sensors on this device</string>
+
+    <!-- Settings: activation -->
+    <string name="section_activation">Activation</string>
+    <string name="setting_auto_start">Start automatically in a vehicle</string>
+    <string name="setting_auto_start_subtitle">Turns the cues on when you get in a car and off when you get out</string>
+    <string name="setting_pause_screen_off">Pause when screen is off</string>
+    <string name="setting_pause_screen_off_subtitle">Stop using the sensors while the screen is off to save battery</string>
+    <string name="setting_add_tile">Add Quick Settings tile</string>
+    <string name="setting_add_tile_subtitle">Turn the cues on and off from the notification shade</string>
+
+    <!-- Settings: appearance -->
+    <string name="section_appearance">Appearance</string>
+    <string name="setting_dynamic_color">Dynamic Color (Material You)</string>
+    <string name="setting_dynamic_color_subtitle">Sync with wallpaper colors</string>
+    <string name="setting_color_theme">Color Theme</string>
+    <string name="setting_theme">Theme</string>
+    <string name="theme_mode_light">Light</string>
+    <string name="theme_mode_dark">Dark</string>
+    <string name="theme_mode_system">System Default</string>
+    <string name="color_theme_default">App Default</string>
+    <string name="color_theme_ocean">Ocean</string>
+    <string name="color_theme_forest">Forest</string>
+    <string name="color_theme_sunset">Sunset</string>
+    <string name="color_theme_grape">Grape</string>
+    <string name="color_theme_rose">Rose</string>
+    <string name="color_theme_slate">Slate</string>
+    <string name="color_theme_gold">Gold</string>
+    <string name="color_theme_teal">Teal</string>
+    <string name="color_theme_plum">Plum</string>
+    <string name="color_theme_moss">Moss</string>
+    <string name="color_theme_coral">Coral</string>
+    <string name="color_theme_indigo">Indigo</string>
+    <string name="color_theme_mustard">Mustard</string>
+    <string name="color_theme_crimson">Crimson</string>
+    <string name="color_theme_mint">Mint</string>
+    <string name="color_theme_periwinkle">Periwinkle</string>
+    <string name="setting_theme_contrast">Contrast</string>
+    <string name="contrast_standard">Standard</string>
+    <string name="contrast_medium">Medium</string>
+    <string name="contrast_high">High</string>
+    <string name="setting_pure_dark">Pure Black</string>
+    <string name="setting_pure_dark_subtitle">True black background in dark theme</string>
+    <string name="setting_absolute_dark">Absolute Black</string>
+    <string name="setting_absolute_dark_subtitle">Flatten every surface to black in dark theme</string>
+
+    <!-- Settings: about -->
+    <string name="section_about">About</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="privacy_statement_body">Car Motion Sickness Aid works entirely on your device. Motion sensor readings are used live to move the cues and are never stored or sent anywhere. There\'s no account, no analytics and no internet access. Vehicle detection, if you turn it on, is provided on-device by Google Play services.</string>
+    <string name="section_privacy_policy">Privacy Policy</string>
+    <string name="section_open_source_licenses">Open-source licenses</string>
+    <string name="settings_row_licenses_subtitle">Third-party software notices</string>
+    <string name="section_licenses_intro_title">Compliance &amp; Credits</string>
+    <string name="section_licenses_intro_body">Car Motion Sickness Aid is built using world-class open-source software. Below is a list of the libraries that make this app possible.</string>
+    <string name="license_badge_apache">Apache 2.0</string>
+    <string name="license_badge_android_sdk">Android SDK License</string>
+    <string name="library_version_license_format">%1$s • %2$s</string>
+    <string name="licenses_footer_format">%1$s © %2$d. All trademarks are the property of their respective owners.</string>
+    <string name="lib_desc_compose">UI toolkit for native Android</string>
+    <string name="lib_desc_core_ktx">Kotlin extensions for Android core APIs</string>
+    <string name="lib_desc_play_services_location">On-device activity recognition for automatic start in a vehicle</string>
+</resources>
